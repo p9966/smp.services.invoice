@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>smp.services.invoice.portal</name>
+    </assembly>
+    <members>
+        <member name="T:smp.services.invoice.portal.Controllers.HealthController">
+            <summary>
+            HealthController
+            </summary>
+        </member>
+        <member name="M:smp.services.invoice.portal.Controllers.HealthController.#ctor(smp.services.invoice.portal.Consul.IConsul)">
+            <summary>
+            instance
+            </summary>
+            <param name="consul"></param>
+        </member>
+        <member name="M:smp.services.invoice.portal.Controllers.HealthController.Get(System.String)">
+            <summary>
+            call
+            </summary>
+            <param name="serviceId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:smp.services.invoice.portal.Controllers.InvoiceController">
+            <summary>
+            this controller is used for invoicing.
+            </summary>
+        </member>
+        <member name="M:smp.services.invoice.portal.Controllers.InvoiceController.#ctor(System.IServiceProvider)">
+            <summary>
+            constructor
+            </summary>
+            <param name="serviceProvider"></param>
+        </member>
+        <member name="M:smp.services.invoice.portal.Controllers.InvoiceController.MakeInvoice(smp.services.invoice.core.Invoice.Dtos.InvoiceOrderInputDto)">
+            <summary>
+            make a invoice
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:smp.services.invoice.portal.Controllers.InvoiceController.QueryInvoiceBySerialNo(System.String)">
+            <summary>
+            query invoice info by serial number
+            </summary>
+            <param name="serialNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:smp.services.invoice.portal.Controllers.InvoiceController.QueryInvoiceByOutOrderNo(System.String)">
+            <summary>
+            query invoice info by order number
+            </summary>
+            <param name="outOrderNo"></param>
+            <returns></returns>
+        </member>
+        <member name="T:smp.services.invoice.portal.Program">
+            <summary>
+            program portal class
+            </summary>
+        </member>
+        <member name="M:smp.services.invoice.portal.Program.Main(System.String[])">
+            <summary>
+            program portal method
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:smp.services.invoice.portal.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            build default
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:smp.services.invoice.portal.Startup">
+            <summary>
+            program default config
+            </summary>
+        </member>
+        <member name="M:smp.services.invoice.portal.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            constructor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:smp.services.invoice.portal.Startup.Configuration">
+            <summary>
+            Configuration
+            </summary>
+        </member>
+        <member name="M:smp.services.invoice.portal.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            DI
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:smp.services.invoice.portal.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            middleware
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

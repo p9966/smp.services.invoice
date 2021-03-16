@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D8CEE5C2-2A43-49DA-B86D-689674FAE8AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smp.services.invoice.portal", "src\smp.services.invoice.portal\smp.services.invoice.portal.csproj", "{30C43B0D-61F4-4F03-9D6A-E50F77697EC3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smp.services.invoice.core", "src\smp.services.invoice.core\smp.services.invoice.core.csproj", "{DEEBC379-F72C-4F19-A567-FB9E2C163E16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30C43B0D-61F4-4F03-9D6A-E50F77697EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C43B0D-61F4-4F03-9D6A-E50F77697EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C43B0D-61F4-4F03-9D6A-E50F77697EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C43B0D-61F4-4F03-9D6A-E50F77697EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEEBC379-F72C-4F19-A567-FB9E2C163E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEEBC379-F72C-4F19-A567-FB9E2C163E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEEBC379-F72C-4F19-A567-FB9E2C163E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEEBC379-F72C-4F19-A567-FB9E2C163E16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30C43B0D-61F4-4F03-9D6A-E50F77697EC3} = {D8CEE5C2-2A43-49DA-B86D-689674FAE8AE}
+		{DEEBC379-F72C-4F19-A567-FB9E2C163E16} = {D8CEE5C2-2A43-49DA-B86D-689674FAE8AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC426201-53D3-41F2-8BFB-60F01EE38AB6}
+	EndGlobalSection
+EndGlobal
